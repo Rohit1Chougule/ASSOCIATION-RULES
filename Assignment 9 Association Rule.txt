@@ -1,0 +1,36 @@
+Interview Questions:
+
+
+1.	What is lift and why is it important in Association rules?
+
+Ans-
+
+Lift is a measure of the strength of the association between two items, taking into account the frequency of both items in the dataset. 
+It is calculated as the confidence of the association divided by the support of the second item.
+lift, can be used to compare observed confidence with expected confidence, or how many times an if-then statement is expected to be found true.
+
+
+2.	What is support and Confidence. How do you calculate them?
+
+Ans-
+
+Support is calculated by dividing the number of transactions containing an item set by the total number of transactions.
+Support indicates how frequently an item appears in the data.
+
+Confidence is calculated by dividing the number of transactions containing both itemsets by the number of transactions containing the first itemset.
+Confidence indicates the number of times the if-then statement is found to be true.
+
+Calculation-  confidence(X ⇒ Y) = support(X ∪ Y) / support(X).
+
+
+
+
+3.	What are some limitations or challenges of Association rules mining?
+
+
+Ans-
+
+Some of the main drawbacks of association rule algorithms in e-learning are: the algorithms have too many parameters for some in experienced person in data mining 
+and the obtained rules are in abundance, most of them non-interesting and with low unambiguousness.
+potential to generate an overwhelming number of rules from a large dataset, which can be costly and complex to analyze. 
+To address this issue, you can use techniques to reduce the search space and filter out irrelevant or redundant rules.
